@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 90vw;
+    height: 90vh;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows:  100px 100px 100px;
+    /* grid-auto-flow: column; */
+    grid-auto-flow: row;    /* default hota hai*/
+    /* grid-auto-columns: 50px; */
+    grid-auto-rows: 50px;
+}
+.child{
+    background-color: aqua;
+    border: 2px solid black;
+
+}
+#child2{
+
+    grid-column:span 2 ;
+}
+#child6{
+
+    grid-row:span 2 ;
+}

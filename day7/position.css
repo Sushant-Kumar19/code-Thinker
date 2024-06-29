@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* static => offset kaam ❌ */
+#static #middle{
+    position: static;
+    top: 100px;
+    left: 10px;
+}
+
+
+/* relative => offset kaam ✅ */
+#relative #middle{
+    position: relative;
+    /* top: 50px; */
+    /* left: 50px; */
+}
+
+
+/* --------------- */
+
+/* absolute => offset kaam ✅ */
+#absolute #middle{
+    position: absolute;
+    /* top: 50px; */
+    /* left: 50px; */
+}
+
+#absolute{
+    border: 1px solid red;
+    position: relative;
+}
+
+/* ------------- */
+
+#fixed #middle{
+    /* position: fixed; */
+    top: 50px;
+    left: 50px;
+}
+
+#fixed{
+    border: 1px solid red;
+    position: relative;
+}
+
+
+/* ------------ */
+#sticky #first{
+    position: sticky;
+    top: 50px;
+    left: 10px;
+    right: 50px
+    ;
+}
+
+#sticky{
+    /* position: relative; */
+    height: 500px;
+    border: 1px solid purple;
+}

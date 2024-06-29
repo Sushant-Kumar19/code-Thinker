@@ -1,0 +1,44 @@
+/* h1{
+    color: red;
+    background-color: yellow;
+}
+/* HOVER....... */
+/* h1:hover{
+    color: black;
+    background-color: bisque;
+    cursor: grab;
+}
+ */ 
+
+/* click krne pe site mein kuvh chnges hote hai uske liya */
+ /* active */
+ /* a{
+    background-color: rgb(114, 83, 114);
+ }:active{
+    background-color: bisque;
+    font-size: 50px;
+ } */
+
+/* direct yaha likhna hota haii ya iinput lete hai  wah pe tab dane pe direct ho  */
+ /* :focus.............. */
+ /* a{
+    background-color: blue;
+ }:focus{
+    background-color: blanchedalmond;
+ } */
+
+
+ /* list mein kuch krne mein help krta hai */
+/* li:nth-of-type(4),
+ li:nth-of-type(6){
+    color: red;
+    font size: 100px;
+ }
+
+ li:nth-last-of-type(odd){
+    color: rgb(243, 16, 16);
+ } */
+/* 
+ li:nth-of-type(2n){
+    color: crimson;
+ } */

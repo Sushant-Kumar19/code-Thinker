@@ -1,0 +1,40 @@
+/* element selector
+/* only allow h1 */
+/* h1{
+    color: white;
+    background-color: black;
+    font-size: x-large;
+}
+
+/* ---------------------- */
+
+/* id selector */
+/* #sam{
+    color: cornsilk;
+} */
+
+
+/* ------------------------ */
+/* class selector */
+/* .samarth{
+    color: aqua;
+} */
+
+
+/* ------------------------ */
+/* attribute selector
+a[href="http://instagram.com"]{
+    font-size: 100px;
+} */
+/* 
+input[type="text"]{
+    background-color: yellow;
+}
+ */ 
+
+/* ------------------------ */
+/* universal selector */
+
+*{
+ border: 2px solid black;   
+}

@@ -1,0 +1,12 @@
+.outline-button {
+    border: 1px solid #ccc; /* outline border */
+    background-color: transparent; /* transparent background */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 5px; /* rounded corners */
+    cursor: pointer; /* change cursor on hover */
+  }
+  
+  .outline-button:hover {
+    border-color: #a74b4b; /* change border color on hover */
+    background-color: #923b3b; /* add a slight background color on hover */
+  }
